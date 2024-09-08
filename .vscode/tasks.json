@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "comment": "Tasks for Textual",
+    "tasks":
+    [
+        {
+            "label": "run",
+            "type": "shell",
+            "icon": {"color": "terminal.ansiGreen", "id": "tools"},
+            "command": "python -m src.tui.main",
+        },
+        {
+            "label": "dev",
+            "type": "shell",
+            "icon": {"color": "terminal.ansiYellow", "id": "tools"},
+            "command": "textual run --dev -c 'python -m src.tui.main'",
+        },
+        {
+            "label": "dev-console",
+            "type": "shell",
+            "icon": {"color": "terminal.ansiCyan", "id": "console"},
+            "command": "textual console -x EVENT -x SYSTEM -x DEBUG -x INFO",
+        }
+    ]
+
+}

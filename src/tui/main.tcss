@@ -1,0 +1,37 @@
+$primary: #F8F8F2;
+$secondary: #C3BAC6;
+$background: #1E1E2E;
+$accent-highlight: #A6E3A1;
+$accent-btn-el:#89B4F4;
+$accent-error-warn:#F38BA8;
+$accent-success: #94E2D5;
+$dividers: #575268;
+
+
+Screen {
+    layout: vertical;
+    align: center middle;
+}
+
+WelcomeScreen {
+    height: 100%;
+    width: 100%;
+    layout: vertical;
+    border: heavy #575268;
+    color: $primary;
+    background: $background;
+    border: round #575268;
+}
+
+.welcome-title {
+    text-align: center;
+    width: 100%;
+    padding: 1;
+    text-style: bold;
+    # color: red;
+}
+
+
+.welcome-text {
+    # border: red;
+}

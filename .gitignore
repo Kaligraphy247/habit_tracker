@@ -12,5 +12,10 @@ pyvenv.cfg
 .vscode/*
 !.vscode/tasks.json
 
+# Environment Variables
+.env
+
 # Misc
 restore.py
+
+database.db

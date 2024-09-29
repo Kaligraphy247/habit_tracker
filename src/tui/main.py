@@ -7,6 +7,9 @@ from src.tui.screens.add_habits import AddHabitsScreen
 from src.tui.screens.edit_habits import EditHabitsScreen
 from src.tui.screens.delete_habits import DeleteHabitsScreen
 from src.tui.screens.view_analytics import ViewAnalyticsScreen
+# more
+from src.models.db import engine, create_db_and_tables
+
 
 
 class TestScreen(Screen):
@@ -107,5 +110,6 @@ class HabitTrackerApp(App):
 
 
 if __name__ == "__main__":
+    create_db_and_tables()
     app = HabitTrackerApp()
     app.run()

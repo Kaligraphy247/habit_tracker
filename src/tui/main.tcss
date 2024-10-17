@@ -35,3 +35,28 @@ WelcomeScreen {
 .welcome-text {
     # border: red;
 }
+
+.welcome-text2 {
+    border: red
+}
+
+.title {
+    text-style: bold;
+    border-bottom: solid $background;
+
+}
+
+ViewHabitsScreen {
+    background: $background;
+}
+
+ListHabitsView {
+    height: 1fr;
+    width: 100%;  
+    border: solid round $dividers;  
+    padding: 1;  
+    color: $primary;
+    align: center middle;
+    layout: vertical;
+    overflow-y: auto;
+}

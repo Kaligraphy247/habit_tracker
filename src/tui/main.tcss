@@ -60,3 +60,9 @@ ListHabitsView {
     layout: vertical;
     overflow-y: auto;
 }
+
+
+UserWidget {
+    height: 1fr;
+    background: $background;
+}

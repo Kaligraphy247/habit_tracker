@@ -1,0 +1,54 @@
+$primary: #F8F8F2;
+$secondary: #C3BAC6;
+$background: #1E1E2E;
+$accent-highlight: #A6E3A1;
+$accent-btn-el:#89B4F4;
+$accent-error-warn:#F38BA8;
+$accent-success: #94E2D5;
+$dividers: #575268;
+
+AddHabitsScreen {
+    background: $background;
+}
+
+
+.title {
+    color: $primary;
+    width: 100%;
+    text-align: center;
+    
+}
+
+HabitsInput {
+    border: panel $dividers;
+    height: 25;
+    padding: 1 1;
+}
+
+#save_btn {
+    width: 100%;
+    margin: 1 0;
+    background: $accent-btn-el;
+}
+
+HabitPreview {
+    width: 100%;
+    height: 20;
+    border: panel $dividers;
+    background: $background;
+    padding: 1 2;
+}
+
+#description_input {
+    height: 7;
+    border: none;
+    padding: 0;
+}
+
+#description_preview {
+    height: 6;
+    border: none;
+    padding: 0;
+}
+
+
